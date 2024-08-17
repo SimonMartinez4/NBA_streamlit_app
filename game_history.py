@@ -32,7 +32,8 @@ from functions import get_season_games
 st.cache_data
 
 # Loading teams colors hexacodes file
-colors = pd.read_excel('./src/NBA_Teams_Colors.xlsx', sheet_name='Feuil1')
+
+colors = pd.read_excel('https://raw.githubusercontent.com/SimonMartinez4/NBA_streamlit_app/main/src/NBA_Teams_Colors.xlsx', sheet_name='Feuil1')
 
 def run():
 

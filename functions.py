@@ -712,7 +712,7 @@ def game_hist(game_id):
         plot_bgcolor='rgba(0,0,0,0)',
         paper_bgcolor='rgba(0,0,0,0)',
     )
-    st.write(home_team_c1)
+
     return st.plotly_chart(fig, use_container_width=True)
 
 ## Function to get all games for a season

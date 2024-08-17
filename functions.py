@@ -719,7 +719,7 @@ def game_hist(game_id):
 def get_season_games(season) :
     game_json = leaguegamefinder.LeagueGameFinder(
         season_nullable = season,
-        season_type_nullable = ['Pre Season','Regular Season','Playoffs'],
+        season_type_nullable = ['Regular Season','Playoffs'],
         league_id_nullable = "00"
         )
     game_data = json.loads(game_json.get_json())

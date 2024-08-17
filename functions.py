@@ -372,10 +372,10 @@ def get_teams_id(home_data,away_data) :
 ## Function to get teams colors from the rotation data et the colors excel files
 def get_teams_colors(home_data,away_data) :
     home_team_id, away_team_id = get_teams_id(home_data,away_data)
-    home_team_c1 = colors[colors['team_id']==home_team_id]['color_1'].reset_index(drop=True)[0]
-    home_team_c2 = colors[colors['team_id']==home_team_id]['color_2'].reset_index(drop=True)[0]
-    away_team_c1 = colors[colors['team_id']==away_team_id]['color_1'].reset_index(drop=True)[0]
-    away_team_c2 = colors[colors['team_id']==away_team_id]['color_2'].reset_index(drop=True)[0]   
+    home_team_c1 = colors[colors['team_id']==home_team_id]['color_1'].reset_index(drop=True)[0].str.strip().str.upper()
+    home_team_c2 = colors[colors['team_id']==home_team_id]['color_2'].reset_index(drop=True)[0].str.strip().str.upper()
+    away_team_c1 = colors[colors['team_id']==away_team_id]['color_1'].reset_index(drop=True)[0].str.strip().str.upper()
+    away_team_c2 = colors[colors['team_id']==away_team_id]['color_2'].reset_index(drop=True)[0].str.strip().str.upper()
     return home_team_c1, home_team_c2, away_team_c1, away_team_c2
 
 ## Function to convert clock values to time value in tenths
@@ -696,8 +696,6 @@ def game_hist(game_id):
         row=2,
         col=1
     )
-
-    st.write(home_team_c1)
 
     # Title, size, legend
     fig.update_layout(

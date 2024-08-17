@@ -49,7 +49,7 @@ def run():
         if get_lastg_button :
             game_id=lastg_find(team)
             game_hist(game_id)
-            st.write("home_team_c2")
+            st.write(home_team_c2)
 
     elif method == "Find matchups between 2 teams":
         team_1_opt = ['PHI','CHI','MIL','CLE','BOS','ATL','MIA','CHA','NYK','ORL','BKN','IND','DET','TOR','WAS','LAC','MEM','UTA','SAC','LAL','DAL','DEN','NOP','HOU','SAS','PHO','OKC','MIN','POR','GSW']

@@ -697,6 +697,8 @@ def game_hist(game_id):
         col=1
     )
 
+    st.write(home_team_c1)
+
     # Title, size, legend
     fig.update_layout(
         title="Game History",

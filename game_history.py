@@ -54,7 +54,7 @@ def run():
 
             fig2 = go.Figure(data=[go.Bar(x=['A', 'B', 'C'], y=[10, 15, 20], marker_color=colors)])
 
-            fig2.show()
+            st.plotly_chart(fig2, use_container_width=True)
 
     elif method == "Find matchups between 2 teams":
         team_1_opt = ['PHI','CHI','MIL','CLE','BOS','ATL','MIA','CHA','NYK','ORL','BKN','IND','DET','TOR','WAS','LAC','MEM','UTA','SAC','LAL','DAL','DEN','NOP','HOU','SAS','PHO','OKC','MIN','POR','GSW']

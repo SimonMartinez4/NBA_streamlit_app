@@ -25,7 +25,7 @@ def run():
 
     with col1:
        
-        team_options = ['PHI','CHI','MIL','CLE','BOS','ATL','MIA','CHA','NYK','ORL','BRO','IND','DET','TOR','WAS','LAC','MEM','UTA','SAC','LAL','DAL','DEN','NOP','HOU','SAS','PHO','OKC','MIN','POR','GSW']
+        team_options = ['PHI','CHI','MIL','CLE','BOS','ATL','MIA','CHA','NYK','ORL','BKN','IND','DET','TOR','WAS','LAC','MEM','UTA','SAC','LAL','DAL','DEN','NOP','HOU','SAS','PHO','OKC','MIN','POR','GSW']
         team = st.selectbox('Team', team_options)
         season_options = list_seasons(get_min_season(team), get_max_season(team))
         season = st.selectbox('Season', season_options)

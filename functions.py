@@ -34,10 +34,10 @@ import pandas as pd
 import streamlit as st
 
 # Loading floor image
-img = plt.imread('img/topview-working-hand.jpg')
+img = plt.imread('./img/topview-working-hand.jpg')
 
 # Loading NBA teams color codes
-colors = pd.read_excel('src/NBA_Teams_Colors.xlsx', sheet_name='Feuil1')
+colors = pd.read_excel('./src/NBA_Teams_Colors.xlsx', sheet_name='Feuil1')
 
 ## Function to get team id from the abbreviation
 def get_player_id(name) :

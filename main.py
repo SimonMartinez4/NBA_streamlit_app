@@ -39,5 +39,5 @@ else :
 
 st.sidebar.markdown("---")
 st.sidebar.markdown("### Contact me")
-st.sidebar.markdown('Simon Martinez &nbsp; <a href="https://www.linkedin.com/in/votreprofil/" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Linkedin.svg/20px-Linkedin.svg.png"></a> &nbsp; <a href="https://github.com/votreprofil" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/20px-Octicons-mark-github.svg.png"></a> &nbsp; ', unsafe_allow_html=True)
+st.sidebar.markdown('Simon Martinez &nbsp; <a href="https://www.linkedin.com/in/simon-martinez-da/" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Linkedin.svg/20px-Linkedin.svg.png"></a> &nbsp; <a href="https://github.com/SimonMartinez4" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/20px-Octicons-mark-github.svg.png"></a> &nbsp; ', unsafe_allow_html=True)
 st.sidebar.markdown("Email : [simonmartinez4@gmail.com](mailto:simonmartinez4@gmail.com)")

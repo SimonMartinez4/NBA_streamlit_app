@@ -9,6 +9,8 @@ import streamlit as st
 import home
 import shooting
 import game_history
+import plotly.io as pio
+pio.templates.default = "plotly"
 
 def basketball_theme():
     st.set_page_config(

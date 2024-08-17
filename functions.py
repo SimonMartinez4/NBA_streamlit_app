@@ -453,7 +453,7 @@ def game_hist(game_id):
         marker=dict(
             color=home_team_c1,
             line=dict(color=home_team_c2, width=0.6),
-            pattern=dict(shape='/', size=3, solidity=0.5, fgcolor=home_team_c1)
+            pattern=dict(shape='/', size=3, solidity=0.5, fgcolor=home_team_c2)
             )
         ),
     1,1)
@@ -509,7 +509,7 @@ def game_hist(game_id):
             marker=dict(
             color=away_team_c1,
             line=dict(color=away_team_c2, width=0.6),
-            pattern=dict(shape='/', size=3, solidity=0.5, fgcolor=away_team_c1)
+            pattern=dict(shape='/', size=3, solidity=0.5, fgcolor=away_team_c2)
             )
         ),
     3,1)

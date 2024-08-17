@@ -50,6 +50,7 @@ def run():
             game_id=lastg_find(team)
             game_hist(game_id)
             st.table(colors)
+            st.write(home_team_id)
 
     elif method == "Find matchups between 2 teams":
         team_1_opt = ['PHI','CHI','MIL','CLE','BOS','ATL','MIA','CHA','NYK','ORL','BKN','IND','DET','TOR','WAS','LAC','MEM','UTA','SAC','LAL','DAL','DEN','NOP','HOU','SAS','PHO','OKC','MIN','POR','GSW']

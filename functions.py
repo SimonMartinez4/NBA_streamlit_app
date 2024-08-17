@@ -451,8 +451,7 @@ def game_hist(game_id):
             ),
         hoverinfo='y+text',
         marker=dict(
-            #color=home_team_c1,
-            line=dict(color=home_team_c2, width=0.6),
+            line=dict(color='red', width=0.6),
             pattern=dict(shape='/', size=3, solidity=0.5, fgcolor=home_team_c1)
             )
         ),

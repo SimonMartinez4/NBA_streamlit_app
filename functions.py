@@ -438,7 +438,7 @@ def game_hist(game_id):
     # Creating a Plotly go figure with 3 rows
     fig=go.Figure()
     fig = make_subplots(rows=3, cols=1)
-    st.write(home_team_c1)
+
     # Top row : home team game rotation bars with home_data values
     fig.add_trace(go.Bar(
         y = home_data.Player,
@@ -450,8 +450,8 @@ def game_hist(game_id):
             axis=1
             ),
         hoverinfo='y+text',
-        color=home_team_c1,
         marker=dict(
+            color=home_team_c1,
             line=dict(color=home_team_c2, width=0.6),
             pattern=dict(shape='/', size=3, solidity=0.5, fgcolor=home_team_c1)
             )

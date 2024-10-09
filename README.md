@@ -16,13 +16,14 @@ This page provides users with an access to shooting datas through shot charts an
 
 Here is an example of a shot chart for Michael Jordan 1997-98 Playoffs :
 
-
+![viz](MJ_FG_example.png)
+![viz](MJ_Tend_example.png)
 
 ### 2. Game History
 
 This page enables observers to select a game and quickly view the game's dynamics, including score differential tracking and substitutions.
 
-
+![viz](game_example.png)
 
 ## Packages
 
